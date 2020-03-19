@@ -17,6 +17,9 @@
     "my-ng-app-e2e": {
       "tags": [],
       "implicitDependencies": ["my-ng-app"]
+    },
+    "my-lib": {
+      "tags": []
     }
   }
 }
