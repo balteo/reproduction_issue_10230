@@ -1,7 +1,3 @@
-import { configure, addDecorator } from '@storybook/angular';
-import { withKnobs } from '@storybook/addon-knobs';
-import { withStorySource } from '@storybook/addon-storysource';
+import { configure } from "@storybook/angular";
 
-addDecorator(withKnobs);
-addDecorator(withStorySource);
 configure(require.context('../src/lib', true, /\.stories\.tsx?$/), module);
